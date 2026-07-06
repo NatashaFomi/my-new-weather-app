@@ -4,24 +4,110 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Wheather app</title>
+    <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
-    <h1>Welcome to the Weather App ☺️</h1>
-    <footer>
-      Coded by
-      <a href="https://github.com/NatashaFomi" target="_blank"
-        >Nataliia Fomina</a
-      >
-      and on
-      <a
-        href="https://github.com/NatashaFomi/my-new-weather-app"
-        target="_blank"
-        >GitHub</a
-      >
-      hosted on
-      <a href="https://weather-new-app-meteo.netlify.app/" target="_blank"
-        >Netlify</a
-      >
-    </footer>
+    <div class="app-container">
+      <header class="top">
+        <div class="logo">
+          <div class="logo-icon">🌥️</div>
+          <div>Weatherly</div>
+        </div>
+        <form class="search-form">
+          <input type="search" placeholder="Enter a city.." required />
+          <input type="submit" value="Search" />
+        </form>
+      </header>
+      <main class="main-weather">
+        <div>
+          <h1>Kyiv</h1>
+          <p class="date">Tuesday, 14 May</p>
+          <p class="time">14:49</p>
+        </div>
+        <div>
+          <div class="status">Mostly Sunny</div>
+          <p class="subtitle">Enjoy your day!</p>
+        </div>
+        <div>
+          <div class="weather-icon">🌤️</div>
+          <div class="temperature">24<span class="degree">°C</span></div>
+          <p class="Feels like">Feels like <strong>26°C</strong></p>
+        </div>
+      </main>
+      <section class="details">
+        <div class="detail">
+          <div>
+            <div class="detail-icon">💧</div>
+            <div class="detail-title">Humidity</div>
+            <div class="detail-value">60%</div>
+          </div>
+        </div>
+        <div class="detail">
+          <div>
+            <div class="detail-icon">💨</div>
+            <div class="detail-title">Wind</div>
+            <div class="detail-value">9 km/h</div>
+          </div>
+        </div>
+        <div class="detail">
+          <div>
+            <div class="detail-icon">👁️</div>
+            <div class="detail-title">Visibility</div>
+            <div class="detail-value">10 km</div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <h2>5-Day Forecast</h2>
+        <div class="forecast">
+          <div class="day">
+            <div class="day-name">Tue</div>
+            <div class="day-icon">☀️</div>
+            <div class="high">23°</div>
+            <div class="low">12°</div>
+          </div>
+          <div class="day">
+            <div class="day-name">Wed</div>
+            <div class="day-icon">🌥️</div>
+            <div class="high">24°</div>
+            <div class="low">12°</div>
+          </div>
+          <div class="day">
+            <div class="day-name">Thu</div>
+            <div class="day-icon">🌤️</div>
+            <div class="high">24°</div>
+            <div class="low">12°</div>
+          </div>
+          <div class="day">
+            <div class="day-name">Fri</div>
+            <div class="day-icon">☀️</div>
+            <div class="high">25°</div>
+            <div class="low">15°</div>
+          </div>
+          <div class="day">
+            <div class="day-name">Sat</div>
+            <div class="day-icon">🌧️</div>
+            <div class="high">21°</div>
+            <div class="low">15°</div>
+          </div>
+        </div>
+      </section>
+      <footer>
+        Coded by
+        <a href="https://github.com/NatashaFomi" target="_blank"
+          >Nataliia Fomina</a
+        >
+        and on
+        <a
+          href="https://github.com/NatashaFomi/my-new-weather-app"
+          target="_blank"
+          >GitHub</a
+        >
+        hosted on
+        <a href="https://weather-new-app-meteo.netlify.app/" target="_blank"
+          >Netlify</a
+        >
+      </footer>
+    </div>
   </body>
 </html>
