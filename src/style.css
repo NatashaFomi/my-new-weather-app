@@ -40,3 +40,12 @@ body {
 .logo-icon {
   font-size: 42px;
 }
+
+.search-form {
+  display: flex;
+  width: 420px;
+  border: 1 px solid #dfe3f0;
+  border-radius: 18px;
+  padding: 6px;
+  background: #ffffff;
+}
