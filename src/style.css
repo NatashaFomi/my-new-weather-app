@@ -77,3 +77,161 @@ body {
 .search-form input[type="submit"]:hover {
   background: #5744c7;
 }
+
+.main-weather {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 48px;
+}
+
+h1 {
+  margin: 0 0 18px;
+  font-size: 72px;
+  line-height: 1;
+  letter-spacing: 0;
+}
+
+.date,
+.time,
+.subtitle {
+  color: #7f859d;
+  font-size: 22px;
+  margin: 8px 0;
+}
+
+.status {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 14px;
+}
+
+.weather-icon {
+  font-size: 96px;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.temperature {
+  font-size: 92px;
+  line-height: 1;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 14px;
+}
+
+.degree {
+  font-size: 42px;
+  vertical-align: top;
+}
+
+.details {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border: 1px solid #e6e9f3;
+  border-radius: 20px;
+  padding: 28px;
+  margin-bottom: 48px;
+  box-shadow: 0 14px 35px rgba(75, 85, 125, 0.13);
+}
+
+.detail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 24px;
+}
+
+.detail:not(:last-child) {
+  border-right: 1px solid #dfe3ef;
+}
+
+.detail > div {
+  display: grid;
+  grid-template-columns: 64px auto;
+  column-gap: 18px;
+  align-items: center;
+}
+
+.detail-icon {
+  grid-row: span 2;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: #eef2ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+}
+
+.detail-title {
+  color: #7f859d;
+  font-size: 18px;
+  margin-bottom: 6px;
+}
+
+.detail-value {
+  font-size: 26px;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 28px;
+  margin: 0 0 26px;
+}
+
+.forecast {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 16px;
+}
+
+.day {
+  border: 1px solid #e5e9f3;
+  border-radius: 18px;
+  padding: 24px 12px;
+  text-align: center;
+  box-shadow: 0 12px 28px rgba(75, 85, 125, 0.08);
+}
+
+.day-name {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 24px;
+}
+
+.day-icon {
+  font-size: 48px;
+  margin-bottom: 28px;
+}
+
+.high {
+  font-size: 27px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.low {
+  font-size: 24px;
+  color: #8c92a8;
+}
+
+footer {
+  margin-top: 52px;
+  text-align: center;
+  color: #7f859d;
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+footer a {
+  color: #6651d8;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
