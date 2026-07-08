@@ -13,14 +13,19 @@
           <div class="logo-icon">🌥️</div>
           <div>Weatherly</div>
         </div>
-        <form class="search-form">
-          <input type="search" placeholder="Enter a city.." required />
+        <form class="search-form" id="search-form">
+          <input
+            type="search"
+            id="search-form-input"
+            placeholder="Enter a city.."
+            required
+          />
           <input type="submit" value="Search" />
         </form>
       </header>
       <main class="main-weather">
         <div>
-          <h1>Kyiv</h1>
+          <h1 id="city-name">Kyiv</h1>
           <p class="date">Tuesday, 14 May</p>
           <p class="time">14:49</p>
           <div class="status">Mostly Sunny</div>
@@ -106,5 +111,6 @@
         >
       </footer>
     </div>
+    <script src="src/index.js"></script>
   </body>
 </html>
