@@ -95,7 +95,8 @@ h1 {
 
 .date,
 .time,
-.subtitle {
+.subtitle,
+.main-weather p {
   color: #7f859d;
   font-size: 22px;
   margin: 8px 0;
@@ -107,10 +108,14 @@ h1 {
   margin-bottom: 14px;
 }
 
+.weather-summary {
+  text-align: center;
+}
+
 .weather-icon {
   font-size: 96px;
   text-align: center;
-  margin-bottom: 35px;
+  margin-bottom: 10px;
 }
 
 .temperature {
@@ -118,12 +123,17 @@ h1 {
   line-height: 1;
   font-weight: 500;
   text-align: center;
-  margin-bottom: 14px;
+  margin-bottom: 15px;
+  margin-left: 30px;
 }
 
 .degree {
   font-size: 42px;
   vertical-align: top;
+}
+
+.main-weather strong {
+  color: #171d3a;
 }
 
 .details {
@@ -173,7 +183,7 @@ h1 {
 }
 
 .detail-value {
-  font-size: 26px;
+  font-size: 20px;
   font-weight: 500;
 }
 

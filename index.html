@@ -26,15 +26,18 @@
       </header>
       <main class="main-weather">
         <div>
-          <h1 id="city-name">Kyiv</h1>
+          <h1 id="city-name"></h1>
           <p class="date">Tuesday, 14 May</p>
           <p class="time">14:49</p>
           <div class="status">Mostly Sunny</div>
           <p class="subtitle">Enjoy your day!</p>
         </div>
-        <div>
+        <div class="weather-summary">
           <div class="weather-icon">🌤️</div>
-          <div class="temperature">24<span class="degree">°C</span></div>
+          <div class="temperature" id="actual-temperature">
+            <span class="degree">°C</span>
+          </div>
+          <p class="Feels-like">Feels like <strong>26°C</strong></p>
         </div>
       </main>
       <section class="details">
@@ -54,9 +57,9 @@
         </div>
         <div class="detail">
           <div>
-            <div class="detail-icon">👁️</div>
-            <div class="detail-title">Visibility</div>
-            <div class="detail-value">10 km</div>
+            <div class="detail-icon">⏱️</div>
+            <div class="detail-title">Presure</div>
+            <div class="detail-value">1019 hPa</div>
           </div>
         </div>
       </section>
