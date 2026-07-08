@@ -27,17 +27,18 @@
       <main class="main-weather">
         <div>
           <h1 id="city-name"></h1>
-          <p class="date">Tuesday, 14 May</p>
-          <p class="time">14:49</p>
-          <div class="status">Mostly Sunny</div>
+          <p class="date" id="current-date"><br /></p>
+          <div class="status" id="status">Mostly Sunny</div>
           <p class="subtitle">Enjoy your day!</p>
         </div>
         <div class="weather-summary">
           <div class="weather-icon">🌤️</div>
-          <div class="temperature" id="actual-temperature">
-            <span class="degree">°C</span>
+          <div class="temperature">
+            <span id="actual-temperature"></span><span class="degree">°C</span>
           </div>
-          <p class="Feels-like">Feels like <strong>26°C</strong></p>
+          <p class="feels-like" id="feels-like">
+            <strong></strong>
+          </p>
         </div>
       </main>
       <section class="details">
@@ -45,21 +46,21 @@
           <div>
             <div class="detail-icon">💧</div>
             <div class="detail-title">Humidity</div>
-            <div class="detail-value">60%</div>
+            <div class="detail-value" id="humidity"></div>
           </div>
         </div>
         <div class="detail">
           <div>
             <div class="detail-icon">💨</div>
             <div class="detail-title">Wind</div>
-            <div class="detail-value">9 km/h</div>
+            <div class="detail-value" id="wind-speed"></div>
           </div>
         </div>
         <div class="detail">
           <div>
             <div class="detail-icon">⏱️</div>
             <div class="detail-title">Presure</div>
-            <div class="detail-value">1019 hPa</div>
+            <div class="detail-value" id="pressure-value"></div>
           </div>
         </div>
       </section>
