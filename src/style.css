@@ -208,12 +208,12 @@ h2 {
 .day-name {
   font-size: 20px;
   font-weight: 500;
-  margin-bottom: 24px;
+  margin-bottom: 10px;
 }
 
-.day-icon {
-  font-size: 48px;
-  margin-bottom: 28px;
+.day-icon img {
+  width: 70px;
+  margin-bottom: 10px;
 }
 
 .high {
